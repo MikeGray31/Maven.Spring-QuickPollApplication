@@ -478,7 +478,7 @@ Create a void method in `PollController` called `verifyPoll` that checks if a sp
 
 ## Part 5.3 - Create custom Error Responses
 
-Spring provides some built-in exception handling and error response, but we'll customize it a bit here. Create an `ErrorDetail` class in a new `io.zipcoder.tc_spring_poll_application.dto.error` package to hold relevant information any time an error occurs.
+Spring provides some built-in exception handling and error response, but we'll customize it a bit here. Create an `ErrorDetail` class in a new `io.zipcoder.tc_spring_poll_application.io.zipcoder.tc_spring_poll_application.dto.error` package to hold relevant information any time an error occurs.
 
 Fields (Don't forget to provide getters and setters):
 
@@ -517,7 +517,7 @@ Now it's time to make sure that all objects persisted to the database actually c
 
 ## Part 5.5 - Customizing validation errors
 
-In order to customize validation errors we'll need a class for error information. Create a `ValidationError` class in `io.zipcoder.tc_spring_poll_application.dto.error` with the following fields and appropriate getters and setters:
+In order to customize validation errors we'll need a class for error information. Create a `ValidationError` class in `io.zipcoder.tc_spring_poll_application.io.zipcoder.tc_spring_poll_application.dto.error` with the following fields and appropriate getters and setters:
 
 - `String code`
 - `String message`
